@@ -22,7 +22,7 @@
                 <div class="hidden md:flex space-x-8 text-white font-medium">
                   <a href="/" class="hover:text-gray-200 transition">Home</a>
                   <a href="#" class="hover:text-gray-200 transition">Products</a>
-                  <a href="#" class="hover:text-gray-200 transition">Solutions</a>
+                  <a href="{{ url('/soluctions') }}" class="hover:text-gray-200 transition">Solutions</a> <!-- ✅ this line -->
                   <a href="{{ url('/pricing') }}" class="hover:text-gray-200 transition">Pricing</a> <!-- ✅ this line -->
                 </div>
 

@@ -12,9 +12,13 @@
   @include('layouts.header')
 
   {{-- Content --}}
-  <div class="min-h-screen pt-20">
+
     @yield('content')
-  </div>
+
+
+    @yield('soluctions')
+
+
 
   {{-- Footer --}}
   @include('layouts.footer')
